@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900;1000&display=swap");
+svg{
+    position: fixed;
+    z-index:-1;
+    inset: 0;
+    background-color: #0e4166;
+    width: 100%;
+    min-height: 100vh;
+    display: block;
+    background-image: linear-gradient(to buttom, rgba(14, 65, 102, 0.86), #0e4166);
+}
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+    background-color: #0e4166;
+    box-shadow: 0 0 2px inset #00000079;
+ }
+ 
+ ::-webkit-scrollbar-thumb {
+    background-color: rgb(67, 123, 226);
+    box-shadow: 0 0 10px 10px rgb(67, 123, 226) ;
+ }
+label{
+    margin-left: 5px;
+    color: #ffff;
+}
+.crud{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.crud .btn{
+    background-color: #3f9ec39a;
+}
+.book-custom{
+  background-color: rgba(0, 0, 0, 0.345);
+  color: #ffff;
+  backdrop-filter:blur(3px);
+}
+.table-responsive {
+    max-height: 30vh;
+    overflow: auto !important;
+ }
+ 
